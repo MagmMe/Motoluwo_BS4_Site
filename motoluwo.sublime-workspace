@@ -8,24 +8,52 @@
 				"font-weight"
 			],
 			[
-				"sec",
-				"secondaryFont"
-			],
-			[
-				"padd",
-				"padding"
+				"bac",
+				"background"
 			],
 			[
 				"pad",
-				"padding"
+				"padding-top"
 			],
 			[
-				"marg",
-				"margin-bottom"
+				"back",
+				"background-attachment"
+			],
+			[
+				"backgr",
+				"background-image"
 			],
 			[
 				"mar",
 				"margin-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"sec",
+				"secondaryFont"
 			],
 			[
 				"tran",
@@ -62,10 +90,6 @@
 			[
 				"oncl",
 				"onclick: EventHandler\tWindow"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"margin",
@@ -196,10 +220,6 @@
 				"border-top"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"ba",
 				"background-image"
 			],
@@ -242,10 +262,6 @@
 			[
 				"backgrou",
 				"background-color"
-			],
-			[
-				"box",
-				"box-shadow"
 			],
 			[
 				"paddin",
@@ -310,10 +326,6 @@
 			[
 				"ani",
 				"animation"
-			],
-			[
-				"backgr",
-				"background"
 			],
 			[
 				"anim",
@@ -502,18 +514,6 @@
 			[
 				"sp",
 				"splice(index, howMany)\tArray"
-			],
-			[
-				"ta",
-				"target\tAttr"
-			],
-			[
-				"un",
-				"unshift(element1)\tArray"
-			],
-			[
-				"mari",
-				"margin-top"
 			]
 		]
 	},
@@ -523,16 +523,36 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15673,
+				"buffer_size": 14782,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/mdb.css",
+			"settings":
+			{
+				"buffer_size": 180709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "    <!-- Main container-->\n    <div class=\"container\">\n\n        <div class=\"divider-new\">\n            <h2 class=\"h2-responsive wow bounceIn\">About us</h2>\n        </div>\n\n        <!--Section: About-->\n        <section id=\"about\" class=\"text-xs-center wow bounceIn\" data-wow-delay=\"0.2s\">\n\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem, saepe eius.</p>\n\n        </section>\n        <!--Section: About-->\n\n        <div class=\"divider-new\">\n            <h2 class=\"h2-responsive wow fadeInDown\">Best features</h2>\n        </div>\n\n        <!--Section: Best features-->\n        <section id=\"best-features\">\n\n            <div class=\"row\">\n\n                <!--First columnn-->\n                <div class=\"col-lg-3\">\n                    <!--Card-->\n                    <div class=\"card wow fadeInUp\">\n\n                        <!--Card image-->\n                        <div class=\"view overlay hm-white-slight\">\n                            <img src=\"http://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(3).jpg\" class=\"img-fluid\" alt=\"\">\n                            <a>\n                                <div class=\"mask\"></div>\n                            </a>\n                        </div>\n                        <!--/.Card image-->\n\n                        <!--Card content-->\n                        <div class=\"card-block text-xs-center\">\n                            <!--Title-->\n                            <h4 class=\"card-title\">Card title</h4>\n                            <hr>\n                            <!--Text-->\n                            <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>\n                        </div>\n                        <!--/.Card content-->\n\n                    </div>\n                    <!--/.Card-->\n                </div>\n                <!--First columnn-->\n\n                <!--Second columnn-->\n                <div class=\"col-lg-3\">\n                    <!--Card-->\n                    <div class=\"card wow fadeInUp\" data-wow-delay=\"0.2s\">\n\n                        <!--Card image-->\n                        <div class=\"view overlay hm-white-slight\">\n                            <img src=\"http://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(15).jpg\" class=\"img-fluid\" alt=\"\">\n                            <a>\n                                <div class=\"mask\"></div>\n                            </a>\n                        </div>\n                        <!--/.Card image-->\n\n                        <!--Card content-->\n                        <div class=\"card-block text-xs-center\">\n                            <!--Title-->\n                            <h4 class=\"card-title\">Card title</h4>\n                            <hr>\n                            <!--Text-->\n                            <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>\n                        </div>\n                        <!--/.Card content-->\n\n                    </div>\n                    <!--/.Card-->\n                </div>\n                <!--Second columnn-->\n\n                <!--Third columnn-->\n                <div class=\"col-lg-3\">\n                    <!--Card-->\n                    <div class=\"card wow fadeInUp\" data-wow-delay=\"0.4s\">\n\n                        <!--Card image-->\n                        <div class=\"view overlay hm-white-slight\">\n                            <img src=\"http://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(18).jpg\" class=\"img-fluid\" alt=\"\">\n                            <a>\n                                <div class=\"mask\"></div>\n                            </a>\n                        </div>\n                        <!--/.Card image-->\n\n                        <!--Card content-->\n                        <div class=\"card-block text-xs-center\">\n                            <!--Title-->\n                            <h4 class=\"card-title\">Card title</h4>\n                            <hr>\n                            <!--Text-->\n                            <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>\n                        </div>\n                        <!--/.Card content-->\n\n                    </div>\n                    <!--/.Card-->\n                </div>\n                <!--Third columnn-->\n\n                <!--First columnn-->\n                <div class=\"col-lg-3\">\n                    <!--Card-->\n                    <div class=\"card wow fadeInUp\" data-wow-delay=\"0.6s\">\n\n                        <!--Card image-->\n                        <div class=\"view overlay hm-white-slight\">\n                            <img src=\"http://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(20).jpg\" class=\"img-fluid\" alt=\"\">\n                            <a>\n                                <div class=\"mask\"></div>\n                            </a>\n                        </div>\n                        <!--/.Card image-->\n\n                        <!--Card content-->\n                        <div class=\"card-block text-xs-center\">\n                            <!--Title-->\n                            <h4 class=\"card-title\">Card title</h4>\n                            <hr>\n                            <!--Text-->\n                            <p class=\"card-text\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident fuga animi architecto dolores dicta cum quo velit.</p>\n                        </div>\n                        <!--/.Card content-->\n\n                    </div>\n                    <!--/.Card-->\n                </div>\n                <!--First columnn-->\n            </div>\n\n        </section>\n        <!--/Section: Best features-->\n\n        <div class=\"divider-new\">\n            <h2 class=\"h2-responsive wow fadeInUp\">Contact us</h2>\n        </div>\n\n        <!--Section: Contact-->\n        <section id=\"contact\">\n            <div class=\"row\">\n                <!--First column-->\n                <div class=\"col-md-8\">\n                    <div id=\"map-container\" class=\"z-depth-1 wow fadeInUp\" style=\"height: 300px\"></div>\n                </div>\n                <!--/First column-->\n\n                <!--Second column-->\n                <div class=\"col-md-4\">\n                    <ul class=\"text-xs-center\">\n                        <li class=\"wow fadeInUp\" data-wow-delay=\"0.2s\"><i class=\"fa fa-map-marker\"></i>\n                            <p>New York, NY 10012, USA</p>\n                        </li>\n\n                        <li class=\"wow fadeInUp\" data-wow-delay=\"0.3s\"><i class=\"fa fa-phone\"></i>\n                            <p>+ 01 234 567 89</p>\n                        </li>\n\n                        <li class=\"wow fadeInUp\" data-wow-delay=\"0.4s\"><i class=\"fa fa-envelope\"></i>\n                            <p>contact@mdbootstrap.com</p>\n                        </li>\n                    </ul>\n                </div>\n                <!--/Second column-->\n            </div>\n        </section>\n        <!--Section: Contact-->\n\n    </div>\n    <!--/ Main container-->\n\n",
+			"file": "kontakt.html",
+			"file_size": 7790,
+			"file_write_time": 131307151070000000,
+			"settings":
+			{
+				"buffer_size": 7626,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "sass/magme.scss",
 			"settings":
 			{
-				"buffer_size": 1786,
+				"buffer_size": 6272,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -888,9 +908,9 @@
 	"file_history":
 	[
 		"/Users/MarcinMagiera/Desktop/Projekty/Motoluwo/sass/mdb.css",
+		"/Users/MarcinMagiera/Desktop/Projekty/Motoluwo/sass/magme.scss",
 		"/Users/MarcinMagiera/Desktop/Projekty/Motoluwo/sass/mdb.scss",
 		"/Users/MarcinMagiera/Downloads/basic-landing-page/index.html",
-		"/Users/MarcinMagiera/Desktop/Projekty/Motoluwo/sass/magme.scss",
 		"/Users/MarcinMagiera/Downloads/MDB Free/index.html",
 		"/Users/MarcinMagiera/Desktop/Projekty/Motoluwo/README.txt",
 		"/Users/MarcinMagiera/Desktop/Projekty/DlaKobiety/v2.0/README.txt",
@@ -1018,7 +1038,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -1153,7 +1173,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1162,15 +1182,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15673,
+						"buffer_size": 14782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								168,
-								168
+								8440,
+								8440
 							]
 						],
 						"settings":
@@ -1182,8 +1202,8 @@
 								{
 									"1":
 									[
-										165,
-										169
+										8436,
+										8439
 									]
 								},
 								"icon":
@@ -1198,8 +1218,8 @@
 								{
 									"1":
 									[
-										165,
-										169
+										8192,
+										8195
 									]
 								},
 								"unmatched":
@@ -1208,61 +1228,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"incomplete_sync": null,
@@ -1274,27 +1294,135 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2702.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/magme.scss",
+					"file": "sass/mdb.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1786,
+						"buffer_size": 180709,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								440,
-								440
+								44750,
+								44753
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS3/CSS3.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "kontakt.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6403,
+								6292
 							]
 						],
 						"settings":
@@ -1306,8 +1434,132 @@
 								{
 									"1":
 									[
-										457,
-										458
+										6399,
+										6402
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										6297,
+										6300
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2435.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/magme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5601,
+								5601
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5720,
+										5721
 									]
 								},
 								"icon":
@@ -1322,8 +1574,8 @@
 								{
 									"1":
 									[
-										401,
-										402
+										5544,
+										5545
 									]
 								},
 								"unmatched":
@@ -1332,61 +1584,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
 							"incomplete_sync": null,
@@ -1397,10 +1649,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4662.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

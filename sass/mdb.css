@@ -16,6 +16,7 @@
 **********************/
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 .mdb-color.lighten-5 {
   background-color: #D0D6E2 !important; }
 
@@ -6532,6 +6533,20 @@ ul.instagram-photos li {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
 
+html > body .selector, x:-moz-any-link, x:default {
+  color: lime; }
+
+@-moz-document url-prefix() {
+  .selector {
+    color: lime; } }
+
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 html,
 body,
 .view {
@@ -6547,10 +6562,21 @@ body,
   .view .section-heading {
     font-weight: 700; }
 
+.lnr, .text-moto {
+  color: #CC1D28; }
+
+.divider-new::before, .divider-new::after {
+  background: #fff; }
+
 .navbar {
   background-color: transparent; }
   .navbar .navbar-brand {
     font-size: 1.3rem; }
+  .navbar .navbar-nav {
+    padding-top: 7px; }
+
+.moto-text-red {
+  color: #CC1D28; }
 
 .scrolling-navbar {
   -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -6562,26 +6588,190 @@ body,
   padding: 0; }
 
 footer.page-footer {
-  background-color: #1C2331;
+  background: #4b6cb7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4b6cb7, #182848);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4b6cb7, #182848);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   margin-top: 2rem; }
-
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: #1C2331; } }
+  footer.page-footer .tag {
+    font-weight: 100; }
+  footer.page-footer .footer-copyright {
+    font-weight: 100; }
 
 /*Call to action*/
 .flex-center {
   color: #fff; }
 
-.view {
+.view.hero-view {
   background: url("../img/hero_motoluwo.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
+.outer {
+  max-width: 1400px;
+  margin: 0 auto; }
+
+.main-view {
+  background: url("../img/custom_container.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 10%; }
+  .main-view .main-text {
+    padding: 10% 10% 30% 10%;
+    color: #fff; }
+
+.second-section {
+  padding-bottom: 0; }
+  .second-section .icon-main {
+    font-size: 4rem;
+    color: #CC1D28; }
+  .second-section .model-car {
+    padding-top: 4rem; }
+
 /*Contact section*/
-#contact .fa {
+#contact .contact-list {
+  color: white; }
+
+#contact .lnr {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #1C2331; }
+  color: orange; }
+
+.test > main,
+.codrops-top {
+  font-family: 'Lato', Arial, sans-serif;
+  color: #fff; }
+
+.test > main {
+  margin: 0 auto;
+  padding: 2.5em 2em 7em;
+  text-align: center; }
+
+.related {
+  background: #ecf0f1;
+  color: #777;
+  text-align: center; }
+
+.related a {
+  font-weight: 700;
+  color: #3498db;
+  opacity: 0.7; }
+
+.related a:hover {
+  opacity: 1; }
+
+@media screen and (max-width: 25em) {
+  .codrops-icon span {
+    display: none; } }
+
+.test {
+  overflow: hidden;
+  /* we don't want the pseudo-elements sticking out */ }
+
+.container svg {
+  display: block; }
+
+section {
+  position: relative;
+  padding: 5em 10%;
+  background: #687C8A;
+  color: #fff;
+  text-align: center; }
+
+section p {
+  font-size: 1.3em;
+  line-height: 1.5; }
+
+section.color h2 {
+  color: #fff; }
+
+.paralax {
+  background: #3498db;
+  background-image: url("../img/mercedes-container.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 400px; }
+
+/*** Individual section styles and separators ***/
+/* Common style for pseudo-elements */
+section::before,
+section::after {
+  position: absolute;
+  content: '';
+  pointer-events: none; }
+
+/* Triangles */
+.ss-style-triangles::before,
+.ss-style-triangles::after {
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg); }
+
+.ss-style-triangles::before {
+  top: -50px;
+  background: #29383B; }
+
+.ss-style-triangles::after {
+  bottom: -50px;
+  z-index: 10;
+  background: inherit; }
+
+/* Double Diagonal line */
+.ss-style-doublediagonal {
+  z-index: 1;
+  padding-top: 6em;
+  background: #1C2331; }
+
+.ss-style-doublediagonal::before,
+.ss-style-doublediagonal::after {
+  top: 0;
+  left: -25%;
+  z-index: -1;
+  width: 150%;
+  height: 75%;
+  background: inherit;
+  -webkit-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0; }
+
+.ss-style-doublediagonal::before {
+  height: 50%;
+  background: #CC1D28;
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  -webkit-transform-origin: 3% 0;
+  transform-origin: 3% 0; }
+
+/* Big Triangle */
+svg#bigTriangleColor {
+  pointer-events: none; }
+
+#bigTriangleColor path {
+  fill: #1C2331;
+  stroke: #1C2331;
+  stroke-width: 2; }
+
+/* Curves */
+#curveUpColor path,
+#curveDownColor path {
+  fill: #3498db;
+  stroke: #3498db; }
+
+/* Big triangle with shadow */
+#trianglePath1 {
+  fill: #687C8A;
+  stroke: #687C8A; }
+
+#trianglePath2 {
+  fill: #CC1D28;
+  stroke: #CC1D28; }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; } }

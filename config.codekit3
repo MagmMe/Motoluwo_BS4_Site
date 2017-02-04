@@ -179,6 +179,14 @@
 		"oAP": "\/font\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
+	"\/img\/custom_container.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/custom_container.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/hero_motoluwo.jpg": {
 		"ft": 16384,
 		"iS": 153639,
@@ -219,6 +227,30 @@
 		"oAP": "\/img\/lightbox\/Thumbs.db",
 		"oF": 0
 		},
+	"\/img\/logo\/model_car.png": {
+		"ft": 32768,
+		"iS": 976506,
+		"oA": 0,
+		"oAP": "\/img\/logo\/model_car.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo\/moto_luwo_logo.png": {
+		"ft": 32768,
+		"iS": 14677,
+		"oA": 0,
+		"oAP": "\/img\/logo\/moto_luwo_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/logo\/moto_luwo_logo_white.png": {
+		"ft": 32768,
+		"iS": 13375,
+		"oA": 0,
+		"oAP": "\/img\/logo\/moto_luwo_logo_white.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/logo\/motoluwo_logo.png": {
 		"ft": 32768,
 		"iS": 10857,
@@ -226,6 +258,22 @@
 		"oAP": "\/img\/logo\/motoluwo_logo.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/img\/mercedes-container.jpg": {
+		"ft": 16384,
+		"iS": 157192,
+		"oA": 0,
+		"oAP": "\/img\/mercedes-container.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/model_car.png": {
+		"ft": 32768,
+		"iS": 973741,
+		"oA": 0,
+		"oAP": "\/img\/model_car.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/overlays\/01.png": {
 		"ft": 32768,
