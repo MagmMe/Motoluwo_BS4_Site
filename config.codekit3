@@ -179,6 +179,46 @@
 		"oAP": "\/font\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
+	"\/img\/audi_logo.png": {
+		"ft": 32768,
+		"iS": 140296,
+		"oA": 0,
+		"oAP": "\/img\/audi_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/bmw_logo.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/bmw_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/card_car_1.jpg": {
+		"ft": 16384,
+		"iS": 101535,
+		"oA": 0,
+		"oAP": "\/img\/card_car_1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/card_car_2.jpg": {
+		"ft": 16384,
+		"iS": 94563,
+		"oA": 0,
+		"oAP": "\/img\/card_car_2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/card_car_3.jpg": {
+		"ft": 16384,
+		"iS": 86787,
+		"oA": 0,
+		"oAP": "\/img\/card_car_3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/custom_container.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -267,6 +307,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/mercedes_logo.png": {
+		"ft": 32768,
+		"iS": 179210,
+		"oA": 0,
+		"oAP": "\/img\/mercedes_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/model_car.png": {
 		"ft": 32768,
 		"iS": 973741,
@@ -352,6 +400,30 @@
 		"oA": 2,
 		"oAP": "\/img\/overlays\/Thumbs.db",
 		"oF": 0
+		},
+	"\/img\/porsche_logo.png": {
+		"ft": 32768,
+		"iS": 216592,
+		"oA": 0,
+		"oAP": "\/img\/porsche_logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/subaru_logo.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/subaru_logo.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/vw_logo.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/vw_logo.png",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/index.html": {
 		"ft": 8192,

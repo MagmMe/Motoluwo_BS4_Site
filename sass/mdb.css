@@ -6568,6 +6568,9 @@ body,
 .divider-new::before, .divider-new::after {
   background: #fff; }
 
+.dark::before, .dark::after {
+  background: #ccc; }
+
 .navbar {
   background-color: transparent; }
   .navbar .navbar-brand {
@@ -6625,11 +6628,16 @@ footer.page-footer {
 
 .second-section {
   padding-bottom: 0; }
-  .second-section .icon-main {
-    font-size: 4rem;
-    color: #CC1D28; }
-  .second-section .model-car {
-    padding-top: 4rem; }
+  .second-section .lead {
+    font-weight: 100; }
+  .second-section .buy-card {
+    color: #ff4081; }
+  .second-section .sell-card {
+    color: #e040fb; }
+  .second-section .serwis-card {
+    color: #00c853; }
+  .second-section .lnr {
+    color: white; }
 
 /*Contact section*/
 #contact .contact-list {

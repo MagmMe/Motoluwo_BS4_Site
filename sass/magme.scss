@@ -49,6 +49,10 @@ html>/**/body .selector, x:-moz-any-link, x:default {
             background: #fff;
         }
 
+        .dark::before, .dark::after{
+            background: #ccc;
+        }
+
 
 
 
@@ -130,12 +134,23 @@ html>/**/body .selector, x:-moz-any-link, x:default {
 
         .second-section{
             padding-bottom: 0;
-            .icon-main{
-                font-size: 4rem;
-                color: $motoRed;
+
+            .lead{
+                font-weight: 100;
             }
-            .model-car{
-                padding-top: 4rem;
+
+            .buy-card{
+                color: #ff4081;
+            }
+            .sell-card{
+                color: #e040fb;
+            }
+            .serwis-card{
+                color:#00c853;
+            }
+
+            .lnr{
+                color: white;
             }
         }
 
