@@ -59,6 +59,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/firma.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/firma.html",
+		"oF": 0
+		},
 	"\/font\/roboto\/Roboto-Bold.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -219,6 +225,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/card_car_4.jpg": {
+		"ft": 16384,
+		"iS": 98599,
+		"oA": 0,
+		"oAP": "\/img\/card_car_4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/card_car_4.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/card_car_4.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/img\/custom_container.png": {
 		"ft": 32768,
 		"iS": 0,
@@ -226,6 +248,22 @@
 		"oAP": "\/img\/custom_container.png",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/img\/firma_header.jpg": {
+		"ft": 16384,
+		"iS": 97482,
+		"oA": 0,
+		"oAP": "\/img\/firma_header.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/firma_header_2.jpg": {
+		"ft": 16384,
+		"iS": 31477,
+		"oA": 0,
+		"oAP": "\/img\/firma_header_2.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/hero_motoluwo.jpg": {
 		"ft": 16384,
@@ -320,6 +358,14 @@
 		"iS": 973741,
 		"oA": 0,
 		"oAP": "\/img\/model_car.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/ofirmie_main.jpg": {
+		"ft": 16384,
+		"iS": 86878,
+		"oA": 0,
+		"oAP": "\/img\/ofirmie_main.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -485,6 +531,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/magme-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/magme-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/magme.js": {
 		"ft": 64,
 		"mi": 1,
@@ -558,6 +613,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/motoluwo.sublime-workspace",
+		"oF": 0
+		},
+	"\/oferta.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/oferta.html",
 		"oF": 0
 		},
 	"\/README.txt": {

@@ -16,7 +16,6 @@
 **********************/
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,700");
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 .mdb-color.lighten-5 {
   background-color: #D0D6E2 !important; }
 
@@ -6571,6 +6570,12 @@ body,
 .dark::before, .dark::after {
   background: #ccc; }
 
+table span, td span, tr span {
+  color: #fff !important; }
+
+td:last-child {
+  color: #fff !important; }
+
 .navbar {
   background-color: transparent; }
   .navbar .navbar-brand {
@@ -6602,6 +6607,11 @@ footer.page-footer {
     font-weight: 100; }
   footer.page-footer .footer-copyright {
     font-weight: 100; }
+  footer.page-footer .kursy ul .kursy-footer {
+    display: block;
+    width: 100%;
+    max-width: 270px;
+    background-color: #ccc; }
 
 /*Call to action*/
 .flex-center {
@@ -6671,10 +6681,6 @@ footer.page-footer {
 .related a:hover {
   opacity: 1; }
 
-@media screen and (max-width: 25em) {
-  .codrops-icon span {
-    display: none; } }
-
 .test {
   overflow: hidden;
   /* we don't want the pseudo-elements sticking out */ }
@@ -6734,6 +6740,10 @@ section::after {
   z-index: 1;
   padding-top: 6em;
   background: #1C2331; }
+  .ss-style-doublediagonal div > div > div ~ p {
+    font-weight: 100; }
+  .ss-style-doublediagonal .lnr {
+    color: white; }
 
 .ss-style-doublediagonal::before,
 .ss-style-doublediagonal::after {
@@ -6755,6 +6765,11 @@ section::after {
   transform: rotate(-3deg);
   -webkit-transform-origin: 3% 0;
   transform-origin: 3% 0; }
+
+.main-contact a {
+  color: white; }
+  .main-contact a:hover {
+    color: orange; }
 
 /* Big Triangle */
 svg#bigTriangleColor {
@@ -6779,6 +6794,40 @@ svg#bigTriangleColor {
 #trianglePath2 {
   fill: #CC1D28;
   stroke: #CC1D28; }
+
+.carousel {
+  height: 50%; }
+
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+.carousel-item,
+.active {
+  height: 100%; }
+
+.carousel-inner {
+  height: 100%; }
+
+.carousel-item:nth-child(1) {
+  background-image: url("../img/firma_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4; }
+
+.carousel-item:nth-child(2) {
+  background-image: url("../img/firma_header_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.carousel-item:nth-child(3) {
+  background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(67).jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*Caption*/
+.flex-center {
+  color: #fff; }
 
 @media only screen and (max-width: 768px) {
   .navbar {

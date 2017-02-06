@@ -54,6 +54,21 @@ html>/**/body .selector, x:-moz-any-link, x:default {
         }
 
 
+        // Tabela kursów walut
+
+        table, td, tr{
+
+                span{
+                    color: #fff !important;
+                }
+
+        }
+
+        td:last-child{
+            color: #fff !important;
+        }
+
+
 
 
 // Navigation bar
@@ -98,6 +113,15 @@ html>/**/body .selector, x:-moz-any-link, x:default {
             .footer-copyright{
                 font-weight: 100;
             }
+
+            .kursy ul .kursy-footer{
+                display: block;
+                width: 100%;
+                max-width: 270px;
+                background-color:#ccc;
+
+            }
+
         }
 
 
@@ -169,10 +193,6 @@ html>/**/body .selector, x:-moz-any-link, x:default {
             }
         }
 
-
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-
 .test > main,
 .codrops-top {
     font-family: 'Lato', Arial, sans-serif;
@@ -203,13 +223,6 @@ html>/**/body .selector, x:-moz-any-link, x:default {
     opacity: 1;
 }
 
-@media screen and (max-width: 25em) {
-
-    .codrops-icon span {
-        display: none;
-    }
-
-}
 
 .test {
     overflow: hidden;
@@ -284,6 +297,19 @@ section::after {
     z-index: 1;
     padding-top: 6em;
     background: #1C2331;
+
+        div > div > div ~ p{
+            font-weight: 100;
+        }
+
+        .lnr{
+            color: white;
+        }
+
+}
+
+.car-logos{
+
 }
 
 .ss-style-doublediagonal::before,
@@ -307,6 +333,18 @@ section::after {
     transform: rotate(-3deg);
     -webkit-transform-origin: 3% 0;
     transform-origin: 3% 0;
+}
+
+.main-contact{
+    a{
+        color: white;
+
+        &:hover{
+        color: orange;
+        }
+    }
+
+
 }
 
 
@@ -342,6 +380,52 @@ svg#bigTriangleColor {
     fill: #CC1D28;
     stroke: #CC1D28;
 }
+
+
+// O Firmie
+
+            .carousel {
+            height: 50%;
+        }
+
+        @media (max-width: 776px) {
+            .carousel {
+                height: 100%;
+            }
+        }
+
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        .carousel-item:nth-child(1) {
+            background-image: url("../img/firma_header.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.4;
+        }
+
+        .carousel-item:nth-child(2) {
+            background-image: url("../img/firma_header_2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .carousel-item:nth-child(3) {
+            background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(67).jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /*Caption*/
+
+        .flex-center {
+            color: #fff;
+        }
 
 
 @media only screen and (max-width: 768px) {
