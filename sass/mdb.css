@@ -6582,6 +6582,8 @@ td:last-child {
     font-size: 1.3rem; }
   .navbar .navbar-nav {
     padding-top: 7px; }
+  .navbar .nav-flex-icons {
+    padding-top: 1px; }
 
 .moto-text-red {
   color: #CC1D28; }
@@ -6660,8 +6662,7 @@ footer.page-footer {
 
 .test > main,
 .codrops-top {
-  font-family: 'Lato', Arial, sans-serif;
-  color: #fff; }
+  color: black; }
 
 .test > main {
   margin: 0 auto;
@@ -6800,7 +6801,7 @@ svg#bigTriangleColor {
 
 @media (max-width: 776px) {
   .carousel {
-    height: 100%; } }
+    height: 60%; } }
 
 .carousel-item,
 .active {
@@ -6820,15 +6821,111 @@ svg#bigTriangleColor {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.carousel-item:nth-child(3) {
-  background-image: url("http://mdbootstrap.com/img/Photos/Slides/img%20(67).jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 /*Caption*/
 .flex-center {
   color: #fff; }
 
-@media only screen and (max-width: 768px) {
+.carousel-item.offer:nth-child(1) {
+  background-image: url("../img/oferta_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4; }
+
+.carousel-item.offer:nth-child(2) {
+  background-image: url("../img/oferta_header_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4; }
+
+.icons {
+  margin-top: 40px; }
+  .icons .lnr {
+    font-size: 3.4rem; }
+  .icons .lnr-magnifier {
+    color: #CC1D28; }
+  .icons .lnr-thumbs-up {
+    color: orange; }
+  .icons .lnr-leaf {
+    color: green; }
+  .icons hr {
+    background: white; }
+
+section.color-purple {
+  background: #1C2331; }
+
+section.color-white {
+  background: white; }
+
+#trianglePath3 {
+  fill: #1C2331;
+  stroke: #1C2331; }
+
+.mobile-container hr {
+  background: white; }
+
+.vip-container {
+  color: #CC1D28; }
+
+.carousel-item.kontakt:nth-child(1) {
+  background-image: url("../img/kontakt_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4; }
+
+.carousel-item.kontakt:nth-child(2) {
+  background-image: url("../img/kontakt2_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4; }
+
+.contactForm .mdl-card {
+  width: auto; }
+
+.contactForm .mdl-card__title {
+  padding-top: 0; }
+
+.contactForm .mdl-card__title img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
+
+.contactForm .mdl-card__supporting-text {
+  width: 100%; }
+
+#contactForm input {
+  outline: 0; }
+
+#contactForm label {
+  margin-bottom: 0;
+  font-weight: 100;
+  color: #737373; }
+
+#contactForm input.error + label:after,
+#contactForm textarea.error + label:after {
+  background-color: #ff5252;
+  left: 0;
+  width: 100%;
+  visibility: visible; }
+
+#contactForm .mdl-textfield {
+  width: 100%; }
+
+#contactMessage {
+  min-height: 80px;
+  border-color: rgba(0, 0, 0, 0.12); }
+
+@media only screen and (max-width: 468px) {
+  .view.hero-view {
+    background: url("../img/hero_mobile_motoluwo.jpg") no-repeat !important;
+    -webkit-background-size: 100% !important;
+    -moz-background-size: 100% !important;
+    -o-background-size: 100% !important;
+    background-size: 100% !important; }
   .navbar {
-    background-color: #1C2331; } }
+    background-color: #1C2331; }
+  .contact-mail {
+    font-size: 1.1rem; } }

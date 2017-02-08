@@ -1,0 +1,1 @@
+!function($){"use strict";$(document).ready(function(){var e=$("#contactForm");e.length&&e.validate({rules:{contactName:"required",contactEmail:{required:!0,email:!0},contactSubject:"required",contactMessage:"required"},errorPlacement:function(e,t){return!0}})})}(jQuery);

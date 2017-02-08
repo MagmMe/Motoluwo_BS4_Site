@@ -29,6 +29,36 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/main-color-1.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main-color-1-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/main-color-2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main-color-2-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/material.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/material.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/mdb.css": {
 		"aP": 1,
 		"bl": 0,
@@ -201,6 +231,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/car_oferta.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/img\/car_oferta.png",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/car_oferta_vip.png": {
+		"ft": 32768,
+		"iS": 187789,
+		"oA": 0,
+		"oAP": "\/img\/car_oferta_vip.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/card_car_1.jpg": {
 		"ft": 16384,
 		"iS": 101535,
@@ -265,11 +311,59 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/img\/hero_mobile_motoluwo.jpg": {
+		"ft": 16384,
+		"iS": 591865,
+		"oA": 0,
+		"oAP": "\/img\/hero_mobile_motoluwo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/img\/hero_motoluwo.jpg": {
 		"ft": 16384,
 		"iS": 153639,
 		"oA": 0,
 		"oAP": "\/img\/hero_motoluwo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/kontakt2_header.jpg": {
+		"ft": 16384,
+		"iS": 246620,
+		"oA": 0,
+		"oAP": "\/img\/kontakt2_header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/kontakt_header.jpg": {
+		"ft": 16384,
+		"iS": 219999,
+		"oA": 0,
+		"oAP": "\/img\/kontakt_header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/kontakt_women.jpg": {
+		"ft": 16384,
+		"iS": 246738,
+		"oA": 0,
+		"oAP": "\/img\/kontakt_women.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/img\/lang\/german.png": {
+		"ft": 32768,
+		"iS": 2512,
+		"oA": 0,
+		"oAP": "\/img\/lang\/german.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/lang\/polish.png": {
+		"ft": 32768,
+		"iS": 1655,
+		"oA": 0,
+		"oAP": "\/img\/lang\/polish.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -304,6 +398,14 @@
 		"oA": 2,
 		"oAP": "\/img\/lightbox\/Thumbs.db",
 		"oF": 0
+		},
+	"\/img\/logo\/mobilede-logo.png": {
+		"ft": 32768,
+		"iS": 10587,
+		"oA": 0,
+		"oAP": "\/img\/logo\/mobilede-logo.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/img\/logo\/model_car.png": {
 		"ft": 32768,
@@ -360,6 +462,22 @@
 		"oAP": "\/img\/model_car.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/oferta_header.jpg": {
+		"ft": 16384,
+		"iS": 66252,
+		"oA": 0,
+		"oAP": "\/img\/oferta_header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/img\/oferta_header_2.jpg": {
+		"ft": 16384,
+		"iS": 109690,
+		"oA": 0,
+		"oAP": "\/img\/oferta_header_2.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/img\/ofirmie_main.jpg": {
 		"ft": 16384,
@@ -531,6 +649,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/jquery.validate.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.validate.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/magme-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -545,6 +672,33 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/magme-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/material.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/material.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
